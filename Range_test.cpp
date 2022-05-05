@@ -1,7 +1,7 @@
 #define CATCH_CONFIG_MAIN  // This tells Catch to provide a main() - only do this in one cpp file
 #include "test/catch.hpp"
 #include "Range.h"
-#include "A2DConverter.h"
+#include "A2D.h"
 
 TEST_CASE("Test CalculateRangeAndReadings Continuous Reading present, Expect continuityInfo filled properly") 
 {
